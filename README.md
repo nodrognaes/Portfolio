@@ -5,4 +5,4 @@ Screenshots:
 ![Full](./assets/images/Screenshot1.png"screenshot at full screen")
 ![small](./assets/images/Screenshot2.png"screenshot at smaller screen")
 
-Deployed site URL: 
+Deployed site URL: https://nodrognaes.github.io/Portfolio/
