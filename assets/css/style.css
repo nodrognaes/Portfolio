@@ -201,6 +201,17 @@ footer {
 
 /* Media Queries for resizing screen*/
 @media only screen and (max-width: 700px) {
+    header {
+        height: 120px;
+        flex-direction: column;
+    }
+
+    /*bring nav bar below page title*/
+    .main-nav li {
+        margin: 10px 30px;
+    }
+
+    /*make text smaller on smaller screens*/
     #about-me {
         font-size: 18px;
         padding: 20px 50px;
@@ -208,14 +219,5 @@ footer {
 
     .first-proj .card {
         max-height: 200px;
-    }
-
-    header {
-        height: 120px;
-        flex-direction: column;
-    }
-
-    .main-nav li {
-        margin: 10px 30px;
     }
 }
