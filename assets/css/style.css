@@ -1,7 +1,7 @@
 
 /* Setting custom color vars*/
 :root {
-    --mygray: #EDEAE5;
+    --mygray: #bdbdbd;
     --myyellow: #fce181;
     --mylightyellow: #fef9c7;
     --myteal: #026670;
@@ -133,7 +133,7 @@ main article {
     border-radius: 8px;
     margin: 10px 10px;
     max-height: 280px;
-    min-width: 40%;
+    max-width: 50%;
 }
 
 .other {
@@ -144,8 +144,8 @@ main article {
 
 .other .card{
     position: relative;
-    height: 150px;
-    max-width: 180px;
+    max-height: 150px;
+    max-width: 17%;
     border: 5px solid var(--myteal);
     border-radius: 8px;
     margin: 10px 10px;
@@ -156,7 +156,7 @@ main article {
     opacity: 0.5;
     height: 100%;
     width: 100%;
-    min-width: 150px;
+    min-width: 30%;
 }
 
 /*background image will appear lighter until hovered over*/
@@ -168,7 +168,7 @@ main article {
 /*Placing headings over project image bottom left corners */
 .card h3 {
     position: absolute;
-    bottom: 0px;
+    bottom: -8px;
     left: 0px;
     background-color: var(--myyellow);
     padding: 12px 12px;
