@@ -145,7 +145,7 @@ main article {
 .other .card{
     position: relative;
     max-height: 150px;
-    max-width: 17%;
+    max-width: 18%;
     border: 5px solid var(--myteal);
     border-radius: 8px;
     margin: 10px 10px;
